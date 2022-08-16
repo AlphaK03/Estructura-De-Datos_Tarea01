@@ -1,123 +1,120 @@
-+-----------+--------------------------+------------------+----------------+----------------+----------------+---+
-|	Id		|	Apellidos			|	Nombre	|	Sal.	bruto	|	Deducciones	|	Sal. neto	|	*	|
-+-----------+--------------------------+------------------+----------------+----------------+----------------+---+	
-| 941705352 | Aguilar Campos            | Juan |	2350000 |	72,000.00 |	28,000.00 | * |
-| 897508546 | Aguilar Muñoz            | Alvaro |	2425000 |	72,000.00 |	28,000.00 | * |
-| 859357380 | Agüero Vargas            | Abigaíl |	800000 |	72,000.00 |	28,000.00 | * |
-| 422996070 | Alfaro López            | Tanya |	1350000 |	72,000.00 |	28,000.00 | * |
-| 138618383 | Alpízar Valverde            | Esteban |	2425000 |	72,000.00 |	28,000.00 | * |
-| 815907966 | Amador Fuentes            | Roberto |	1825000 |	72,000.00 |	28,000.00 | * |
-| 821813113 | Araya Madrigal            | Tanya |	1275000 |	72,000.00 |	28,000.00 | * |
-| 326667169 | Arce Campos            | Ariana |	2400000 |	72,000.00 |	28,000.00 | * |
-| 397767739 | Arce González            | Gilberto |	1300000 |	72,000.00 |	28,000.00 | * |
-| 553026467 | Arce Hidalgo            | María |	1675000 |	72,000.00 |	28,000.00 | * |
-| 298039286 | Arce Villalobos            | Sebastián |	2075000 |	72,000.00 |	28,000.00 | * |
-| 616966080 | Arguedas Rivas            | Carolina |	1525000 |	72,000.00 |	28,000.00 | * |
-| 554179636 | Arias Venegas            | Pamela |	1300000 |	72,000.00 |	28,000.00 | * |
-| 848339438 | Arias Víquez            | Camila |	1375000 |	72,000.00 |	28,000.00 | * |
-| 652979016 | Avilés Vincenzi            | Carolina |	2475000 |	72,000.00 |	28,000.00 | * |
-| 628543619 | Barahona López            | Juan |	2475000 |	72,000.00 |	28,000.00 | * |
-| 978059614 | Barahona Rodríguez            | Débora |	2475000 |	72,000.00 |	28,000.00 | * |
-| 982965795 | Barboza Cascante            | Sebastián |	2250000 |	72,000.00 |	28,000.00 | * |
-| 284369247 | Barboza Rodríguez            | Josué |	1475000 |	72,000.00 |	28,000.00 | * |
-| 443754542 | Barquero Agüero            | Jorge |	1350000 |	72,000.00 |	28,000.00 | * |
-| 744954427 | Barrantes González            | Andrea |	1775000 |	72,000.00 |	28,000.00 | * |
-| 243857373 | Barrantes Herrera            | María |	2500000 |	72,000.00 |	28,000.00 | * |
-| 533613152 | Barrantes Montes            | Benjamín |	2025000 |	72,000.00 |	28,000.00 | * |
-| 930699725 | Barrantes Muñoz            | Isaac |	1600000 |	72,000.00 |	28,000.00 | * |
-| 692428746 | Barrantes Pérez            | Daniel |	1150000 |	72,000.00 |	28,000.00 | * |
-| 160722676 | Barrientos Romero            | Eduardo |	1125000 |	72,000.00 |	28,000.00 | * |
-| 380589022 | Benavides Alvarado            | Daniela |	1750000 |	72,000.00 |	28,000.00 | * |
-| 968241944 | Blanco Bolaños            | Humberto |	2375000 |	72,000.00 |	28,000.00 | * |
-| 651776869 | Bonilla Rodríguez            | Eduardo |	600000 |	72,000.00 |	28,000.00 | * |
-| 651167802 | Brenes Hernández            | Gabriel |	1625000 |	72,000.00 |	28,000.00 | * |
-| 855824689 | Cabezas Alvarado            | Alejandro |	1150000 |	72,000.00 |	28,000.00 | * |
-| 235116844 | Cabezas Carvajal            | Sebastián |	2425000 |	72,000.00 |	28,000.00 | * |
-| 878396327 | Calderón Arias            | Ana María |	700000 |	72,000.00 |	28,000.00 | * |
-| 327734958 | Calvo Madrigal            | Abraham |	2500000 |	72,000.00 |	28,000.00 | * |
-| 696745926 | Cambronero Arroyo            | José María |	1500000 |	72,000.00 |	28,000.00 | * |
-| 840839213 | Castillo Ureña            | Jorge |	1875000 |	72,000.00 |	28,000.00 | * |
-| 761277236 | Chacón Rodríguez            | David |	1225000 |	72,000.00 |	28,000.00 | * |
-| 562554652 | Chacón Varela            | Daniela |	1425000 |	72,000.00 |	28,000.00 | * |
-| 744516894 | Chacón Víquez            | Melissa |	975000 |	72,000.00 |	28,000.00 | * |
-| 746991275 | Chavarría Madrigal            | Esteban |	2125000 |	72,000.00 |	28,000.00 | * |
-| 831152192 | Chaves Álvarez            | Francisco |	1225000 |	72,000.00 |	28,000.00 | * |
-| 951845512 | Chinchilla Castro            | Arnoldo |	2300000 |	72,000.00 |	28,000.00 | * |
-| 643254685 | Chinchilla Serrano            | Andrea |	600000 |	72,000.00 |	28,000.00 | * |
-| 820347327 | Collado Hernández            | Christian |	975000 |	72,000.00 |	28,000.00 | * |
-| 733375021 | Delgado Chaves            | Luis |	2200000 |	72,000.00 |	28,000.00 | * |
-| 513262162 | Díaz López            | Enrique |	1175000 |	72,000.00 |	28,000.00 | * |
-| 498133986 | Fernández González            | María |	825000 |	72,000.00 |	28,000.00 | * |
-| 339779229 | Fernández Mata            | Daniel |	1425000 |	72,000.00 |	28,000.00 | * |
-| 924846100 | Fernández Prado            | Arturo |	1500000 |	72,000.00 |	28,000.00 | * |
-| 954586276 | Fernández Valverde            | Lucía |	1350000 |	72,000.00 |	28,000.00 | * |
-| 578504788 | Gamboa Alfaro            | Manrique |	975000 |	72,000.00 |	28,000.00 | * |
-| 633999002 | García Quesada            | William |	1500000 |	72,000.00 |	28,000.00 | * |
-| 763533983 | González Artavia            | Juan Carlos |	900000 |	72,000.00 |	28,000.00 | * |
-| 241546523 | González Barquero            | Luis Carlos |	1100000 |	72,000.00 |	28,000.00 | * |
-| 271049986 | González Mora            | Federico |	1050000 |	72,000.00 |	28,000.00 | * |
-| 758596637 | González Murillo            | Oscar |	2475000 |	72,000.00 |	28,000.00 | * |
-| 127202820 | González Rivas            | Alejandra |	850000 |	72,000.00 |	28,000.00 | * |
-| 165825518 | González Rodríguez            | José Luis |	750000 |	72,000.00 |	28,000.00 | * |
-| 736847602 | González Rodríguez            | Arturo |	2000000 |	72,000.00 |	28,000.00 | * |
-| 212775564 | Granados Carballo            | Sebastián |	925000 |	72,000.00 |	28,000.00 | * |
-| 391571206 | Grisanti Rodríguez            | Daniel |	1600000 |	72,000.00 |	28,000.00 | * |
-| 490256127 | Gutiérrez Zamora            | Ana María |	600000 |	72,000.00 |	28,000.00 | * |
-| 868573517 | Guzman Ugalde            | Verónica |	1075000 |	72,000.00 |	28,000.00 | * |
-| 792219909 | Hernández Fuentes            | Wendy |	700000 |	72,000.00 |	28,000.00 | * |
-| 532919143 | López Núñez            | Mariano |	2100000 |	72,000.00 |	28,000.00 | * |
-| 191617618 | Masís Mora            | Alejandro |	2450000 |	72,000.00 |	28,000.00 | * |
-| 330131835 | Monroy Azofeifa            | Gabriel |	775000 |	72,000.00 |	28,000.00 | * |
-| 617248682 | Montero Elizondo            | Marlon |	775000 |	72,000.00 |	28,000.00 | * |
-| 366975330 | Montero Rodríguez            | Manuel |	2300000 |	72,000.00 |	28,000.00 | * |
-| 398735127 | Mora Jiménez            | Ricardo |	1200000 |	72,000.00 |	28,000.00 | * |
-| 215942099 | Moraga Pérez            | Isabel |	850000 |	72,000.00 |	28,000.00 | * |
-| 516583716 | Murillo Barquero            | Diana |	2475000 |	72,000.00 |	28,000.00 | * |
-| 232823832 | Méndez Garita            | Miguel |	2000000 |	72,000.00 |	28,000.00 | * |
-| 688201307 | Méndez Jiménez            | Raquel |	1150000 |	72,000.00 |	28,000.00 | * |
-| 675779620 | Núñez González            | Francisco |	1100000 |	72,000.00 |	28,000.00 | * |
-| 199352285 | Ocampo Flores            | Valeria |	1300000 |	72,000.00 |	28,000.00 | * |
-| 620531830 | Quesada Aguilar            | Sebastián |	775000 |	72,000.00 |	28,000.00 | * |
-| 929596547 | Quesada Morales            | Esteban |	1500000 |	72,000.00 |	28,000.00 | * |
-| 275479912 | Quesada Salvatierra            | Christian |	800000 |	72,000.00 |	28,000.00 | * |
-| 454395044 | Quirós Garro            | Luis |	1025000 |	72,000.00 |	28,000.00 | * |
-| 945148643 | Quirós Villegas            | Carlos Eduardo |	2225000 |	72,000.00 |	28,000.00 | * |
-| 952851799 | Ramírez Carvajal            | Juan |	2275000 |	72,000.00 |	28,000.00 | * |
-| 982085699 | Ramírez Chaves            | Angela |	1675000 |	72,000.00 |	28,000.00 | * |
-| 711497637 | Ramírez Mora            | Javier |	625000 |	72,000.00 |	28,000.00 | * |
-| 380254927 | Ramírez Prado            | Andrés |	625000 |	72,000.00 |	28,000.00 | * |
-| 716594040 | Recio Solís            | Estefanía |	2300000 |	72,000.00 |	28,000.00 | * |
-| 491256614 | Rivera Carvajal            | Sebastián |	625000 |	72,000.00 |	28,000.00 | * |
-| 246779146 | Robles Marín            | Isaac |	2100000 |	72,000.00 |	28,000.00 | * |
-| 933091514 | Rodríguez Arias            | Edgar |	1900000 |	72,000.00 |	28,000.00 | * |
-| 899519287 | Rodríguez Mata            | Josué |	625000 |	72,000.00 |	28,000.00 | * |
-| 271077920 | Rodríguez Morales            | Sebastián |	2275000 |	72,000.00 |	28,000.00 | * |
-| 799004262 | Rodríguez Sánchez            | Luis |	2375000 |	72,000.00 |	28,000.00 | * |
-| 589119684 | Rojas Acevedo            | Yamil |	850000 |	72,000.00 |	28,000.00 | * |
-| 332361645 | Rojas Fernández            | Juan Carlos |	2125000 |	72,000.00 |	28,000.00 | * |
-| 267201089 | Rojas Núñez            | Cristina |	2300000 |	72,000.00 |	28,000.00 | * |
-| 865897166 | Ruiz Navarro            | Carlos |	2300000 |	72,000.00 |	28,000.00 | * |
-| 542423065 | Salas Bermúdez            | Carmen María |	2275000 |	72,000.00 |	28,000.00 | * |
-| 167385405 | Salas Chaves            | José |	2075000 |	72,000.00 |	28,000.00 | * |
-| 582526637 | Salazar Mora            | Juan |	1550000 |	72,000.00 |	28,000.00 | * |
-| 931447906 | Segura Matarrita            | Valeria |	1750000 |	72,000.00 |	28,000.00 | * |
-| 741549800 | Segura Rojas            | Andrés |	2500000 |	72,000.00 |	28,000.00 | * |
-| 431857046 | Solano Barrantes            | Luis Guillermo |	1075000 |	72,000.00 |	28,000.00 | * |
-| 333184829 | Solano Fonseca            | Manuel |	2300000 |	72,000.00 |	28,000.00 | * |
-| 561566290 | Solano Ramírez            | Luis Roberto |	1825000 |	72,000.00 |	28,000.00 | * |
-| 527871967 | Soto Quesada            | Pedro |	2400000 |	72,000.00 |	28,000.00 | * |
-| 913535357 | Sáenz Montero            | María |	1725000 |	72,000.00 |	28,000.00 | * |
-| 238298422 | Sánchez Cerdas            | Marielos |	2325000 |	72,000.00 |	28,000.00 | * |
-| 824273178 | Sánchez Zúñiga            | Edgar |	2100000 |	72,000.00 |	28,000.00 | * |
-| 756931680 | Taylor Valverde            | Jesús |	1200000 |	72,000.00 |	28,000.00 | * |
-| 634047602 | Ugalde Calvo            | Juan |	1450000 |	72,000.00 |	28,000.00 | * |
-| 283388922 | Ugalde Vincenzi            | Joseline |	1850000 |	72,000.00 |	28,000.00 | * |
-| 150585561 | Valverde Salas            | Gastón |	1925000 |	72,000.00 |	28,000.00 | * |
-| 318748415 | Vargas Bogantes            | Teresa |	2025000 |	72,000.00 |	28,000.00 | * |
-| 878181422 | Villalobos Sánchez            | Miguel |	750000 |	72,000.00 |	28,000.00 | * |
-| 989804293 | Vindas Durán            | Sebastián |	2050000 |	72,000.00 |	28,000.00 | * |
-| 685131894 | Zumbado Quesada            | Daniel |	2500000 |	72,000.00 |	28,000.00 | * |
-| 379978368 | Álvarez Alfaro            | Adriana |	875000 |	72,000.00 |	28,000.00 | * |
-| 263544120 | Álvarez Araya            | Daniel |	2350000 |	72,000.00 |	28,000.00 | * |
-| 153874883 | Álvarez Mora            | Pablo |	1525000 |	72,000.00 |	28,000.00 | * |
-| 633878020 | Álvarez Rodríguez            | Víctor |	1375000 |	72,000.00 |	28,000.00 | * |
+941705352	Aguilar	Campos	Juan	2350000
+897508546	Aguilar	Muñoz	Alvaro	2425000
+859357380	Agüero	Vargas	Abigaíl	800000
+422996070	Alfaro	López	Tanya	1350000
+138618383	Alpízar	Valverde	Esteban	2425000
+815907966	Amador	Fuentes	Roberto	1825000
+821813113	Araya	Madrigal	Tanya	1275000
+326667169	Arce	Campos	Ariana	2400000
+397767739	Arce	González	Gilberto	1300000
+553026467	Arce	Hidalgo	María	1675000
+298039286	Arce	Villalobos	Sebastián	2075000
+616966080	Arguedas	Rivas	Carolina	1525000
+554179636	Arias	Venegas	Pamela	1300000
+848339438	Arias	Víquez	Camila	1375000
+652979016	Avilés	Vincenzi	Carolina	2475000
+628543619	Barahona	López	Juan	2475000
+978059614	Barahona	Rodríguez	Débora	2475000
+982965795	Barboza	Cascante	Sebastián	2250000
+284369247	Barboza	Rodríguez	Josué	1475000
+443754542	Barquero	Agüero	Jorge	1350000
+744954427	Barrantes	González	Andrea	1775000
+243857373	Barrantes	Herrera	María	2500000
+533613152	Barrantes	Montes	Benjamín	2025000
+930699725	Barrantes	Muñoz	Isaac	1600000
+692428746	Barrantes	Pérez	Daniel	1150000
+160722676	Barrientos	Romero	Eduardo	1125000
+380589022	Benavides	Alvarado	Daniela	1750000
+968241944	Blanco	Bolaños	Humberto	2375000
+651776869	Bonilla	Rodríguez	Eduardo	600000
+651167802	Brenes	Hernández	Gabriel	1625000
+855824689	Cabezas	Alvarado	Alejandro	1150000
+235116844	Cabezas	Carvajal	Sebastián	2425000
+878396327	Calderón	Arias	Ana María	700000
+327734958	Calvo	Madrigal	Abraham	2500000
+696745926	Cambronero	Arroyo	José María	1500000
+840839213	Castillo	Ureña	Jorge	1875000
+761277236	Chacón	Rodríguez	David	1225000
+562554652	Chacón	Varela	Daniela	1425000
+744516894	Chacón	Víquez	Melissa	975000
+746991275	Chavarría	Madrigal	Esteban	2125000
+831152192	Chaves	Álvarez	Francisco	1225000
+951845512	Chinchilla	Castro	Arnoldo	2300000
+643254685	Chinchilla	Serrano	Andrea	600000
+820347327	Collado	Hernández	Christian	975000
+733375021	Delgado	Chaves	Luis	2200000
+513262162	Díaz	López	Enrique	1175000
+498133986	Fernández	González	María	825000
+339779229	Fernández	Mata	Daniel	1425000
+924846100	Fernández	Prado	Arturo	1500000
+954586276	Fernández	Valverde	Lucía	1350000
+578504788	Gamboa	Alfaro	Manrique	975000
+633999002	García	Quesada	William	1500000
+763533983	González	Artavia	Juan Carlos	900000
+241546523	González	Barquero	Luis Carlos	1100000
+271049986	González	Mora	Federico	1050000
+758596637	González	Murillo	Oscar	2475000
+127202820	González	Rivas	Alejandra	850000
+165825518	González	Rodríguez	José Luis	750000
+736847602	González	Rodríguez	Arturo	2000000
+212775564	Granados	Carballo	Sebastián	925000
+391571206	Grisanti	Rodríguez	Daniel	1600000
+490256127	Gutiérrez	Zamora	Ana María	600000
+868573517	Guzman	Ugalde	Verónica	1075000
+792219909	Hernández	Fuentes	Wendy	700000
+532919143	López	Núñez	Mariano	2100000
+191617618	Masís	Mora	Alejandro	2450000
+330131835	Monroy	Azofeifa	Gabriel	775000
+617248682	Montero	Elizondo	Marlon	775000
+366975330	Montero	Rodríguez	Manuel	2300000
+398735127	Mora	Jiménez	Ricardo	1200000
+215942099	Moraga	Pérez	Isabel	850000
+516583716	Murillo	Barquero	Diana	2475000
+232823832	Méndez	Garita	Miguel	2000000
+688201307	Méndez	Jiménez	Raquel	1150000
+675779620	Núñez	González	Francisco	1100000
+199352285	Ocampo	Flores	Valeria	1300000
+620531830	Quesada	Aguilar	Sebastián	775000
+929596547	Quesada	Morales	Esteban	1500000
+275479912	Quesada	Salvatierra	Christian	800000
+454395044	Quirós	Garro	Luis	1025000
+945148643	Quirós	Villegas	Carlos Eduardo	2225000
+952851799	Ramírez	Carvajal	Juan	2275000
+982085699	Ramírez	Chaves	Angela	1675000
+711497637	Ramírez	Mora	Javier	625000
+380254927	Ramírez	Prado	Andrés	625000
+716594040	Recio	Solís	Estefanía	2300000
+491256614	Rivera	Carvajal	Sebastián	625000
+246779146	Robles	Marín	Isaac	2100000
+933091514	Rodríguez	Arias	Edgar	1900000
+899519287	Rodríguez	Mata	Josué	625000
+271077920	Rodríguez	Morales	Sebastián	2275000
+799004262	Rodríguez	Sánchez	Luis	2375000
+589119684	Rojas	Acevedo	Yamil	850000
+332361645	Rojas	Fernández	Juan Carlos	2125000
+267201089	Rojas	Núñez	Cristina	2300000
+865897166	Ruiz	Navarro	Carlos	2300000
+542423065	Salas	Bermúdez	Carmen María	2275000
+167385405	Salas	Chaves	José	2075000
+582526637	Salazar	Mora	Juan	1550000
+931447906	Segura	Matarrita	Valeria	1750000
+741549800	Segura	Rojas	Andrés	2500000
+431857046	Solano	Barrantes	Luis Guillermo	1075000
+333184829	Solano	Fonseca	Manuel	2300000
+561566290	Solano	Ramírez	Luis Roberto	1825000
+527871967	Soto	Quesada	Pedro	2400000
+913535357	Sáenz	Montero	María	1725000
+238298422	Sánchez	Cerdas	Marielos	2325000
+824273178	Sánchez	Zúñiga	Edgar	2100000
+756931680	Taylor	Valverde	Jesús	1200000
+634047602	Ugalde	Calvo	Juan	1450000
+283388922	Ugalde	Vincenzi	Joseline	1850000
+150585561	Valverde	Salas	Gastón	1925000
+318748415	Vargas	Bogantes	Teresa	2025000
+878181422	Villalobos	Sánchez	Miguel	750000
+989804293	Vindas	Durán	Sebastián	2050000
+685131894	Zumbado	Quesada	Daniel	2500000
+379978368	Álvarez	Alfaro	Adriana	875000
+263544120	Álvarez	Araya	Daniel	2350000
+153874883	Álvarez	Mora	Pablo	1525000
+633878020	Álvarez	Rodríguez	Víctor	1375000

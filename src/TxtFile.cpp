@@ -1,9 +1,10 @@
 //
-// Created by Key Cortés on 25/4/2022.
+// Created by Key Cortés on 14/8/2022.
 //
 
 #include <sstream>
 #include "TxtFile.h"
+#include "Utility.h"
 
 TxtFile::TxtFile() = default;
 
@@ -41,12 +42,12 @@ void TxtFile::dataWritingProcess(string filename, List userList) {
 
     Node * recorrido = userList.getHeadNode();
     ofstream file(filename,ofstream::out);
-    file << "+-----------+--------------------------+------------------+----------------+----------------+----------------+---+\n"
-            "|\tId\t\t|\tApellidos\t\t\t|\tNombre\t|\tSal.\tbruto\t|\tDeducciones\t|\tSal. neto\t|\t*\t|\n"
-            "+-----------+--------------------------+------------------+----------------+----------------+----------------+---+\t" <<endl;
-
     while (recorrido!= nullptr){
-            file << recorrido->person->toString();
+            file << recorrido->person->getId() << "\t";
+            file << recorrido->person->getSurname() << "\t";
+            file << recorrido->person->getLastSurname() << "\t";
+            file << recorrido->person->getName() << "\t";
+            file << recorrido->person->getSalary() << endl;
             recorrido = recorrido->rightNode;
     }
     file.close();
