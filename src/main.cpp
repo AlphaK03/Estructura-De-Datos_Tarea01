@@ -22,7 +22,7 @@ int main(){
     cout << userList.report();
 
     // ESCRITURA DE ARCHIVO
-    csvManager->dataWritingProcess("D:/Estructura-De-Datos_Tarea01/files/salarios2.txt", userList);
+    csvManager->dataWritingProcess("D:/Estructura-De-Datos_Tarea01/files/reporteGenerado.txt", userList);
 
     return 0;
 }

@@ -16,10 +16,6 @@ List TxtFile::dataReadingProcess(string filename) {
     string id, name, surname, lastSurname, birthday, salaryString;
 
     ifstream file(filename);
-   // file.exceptions(std::ifstream::failbit | std::ifstream::badbit);
-  if(file.fail()){
-        throw runtime_error("Could not open the file [" + filename + "]");
-    }
 
     while (getline(file, keyLine)) {
         stringstream stream(keyLine);
