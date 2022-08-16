@@ -42,14 +42,28 @@ void TxtFile::dataWritingProcess(string filename, List userList) {
 
     Node * recorrido = userList.getHeadNode();
     ofstream file(filename,ofstream::out);
+    double deduction = 0;
+    double finalSalary = 0;
+
     while (recorrido!= nullptr){
-            file << recorrido->person->getId() << "\t";
-            file << recorrido->person->getSurname() << "\t";
-            file << recorrido->person->getLastSurname() << "\t";
-            file << recorrido->person->getName() << "\t";
-            file << recorrido->person->getSalary() << endl;
-            recorrido = recorrido->rightNode;
+        file << recorrido->person->getId() << "\t";
+        file << recorrido->person->getSurname() << "\t";
+        file << recorrido->person->getLastSurname() << "\t";
+        file << recorrido->person->getName() << "\t";
+        file << recorrido->person->getSalary() << "\t";
+
+        deduction = Utility::deduction(recorrido->person->getSalary());
+        file << fixed << setprecision(0) << deduction << "\t";
+
+        finalSalary = recorrido->person->getSalary() - deduction;
+        file << fixed << setprecision(0) << finalSalary << endl;
+
+        recorrido = recorrido->rightNode;
     }
+    file << fixed << setprecision(2) << userList.averageSalary() << "\t";
+    file << fixed << setprecision(2) << userList.deductionAverage() << "\t";
+    file << fixed << setprecision(2) << userList.netSalary() << "\t";
+
     file.close();
 }
 

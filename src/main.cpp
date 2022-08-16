@@ -4,23 +4,25 @@
 #include "iostream"
 #include "ITextProcess.h"
 #include "TxtFile.h"
-#include "Utility.h"
 
 using namespace std;
 int main(){
-    string filename = "D:/Estructura-De-Datos_Tarea01/files/salarios.txt";
+
+    string filename = "D:/Estructura-De-Datos_Tarea01/files/salarios.txt";   /*  CAMBIAR RUTA DE ARCHIVO */
     List userList;
     auto *csvManager = new TxtFile();
-    
+
+    // LECTURA DE ARCHIVO
     userList = csvManager->dataReadingProcess(filename);
 
-
+    //ORDENAMIENTO
     userList.sortList();
-    cout << userList.showFromStartToEnd();
 
+    //REPORTE
+    cout << userList.report();
+
+    // ESCRITURA DE ARCHIVO
     csvManager->dataWritingProcess("D:/Estructura-De-Datos_Tarea01/files/salarios2.txt", userList);
-
-
 
     return 0;
 }

@@ -3,7 +3,8 @@
 //
 
 #include "Person.h"
-
+#include "Utility.h"
+#include "List.h"
 #include <utility>
 
 
@@ -62,15 +63,16 @@ void Person::setSalary(int salary) {
     Person::salary = salary;
 }
 
-ostream &operator<<(ostream &os, const Person &person) {
-        os << "| " << person.id << " | " << person.surname << " " << person.lastSurname << "            | " << person.Name << " |\t" << person.salary << " |\t72,000.00 |\t28,000.00 | * |\n";
-    return os;
-}
-
 string Person::toString() {
     stringstream ss;
     ss << (*this);
     return ss.str();
+}
+
+ostream &operator<<(ostream &os, const Person &person) {
+    os << "id: " << person.id << " Name: " << person.Name << " surname: " << person.surname << " lastSurname: "
+       << person.lastSurname << " birthday: " << person.birthday << " salary: " << person.salary;
+    return os;
 }
 
 Person::~Person() = default;

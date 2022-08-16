@@ -6,13 +6,13 @@
 #define LAB04_DATAFLOW_ALPHAK03_UTILITY_H
 #include "iostream"
 #include "string"
-#include "windows.h"
-#include <cmath>
+
 
 using namespace std;
 class Utility {
 public:
     static int strToInt(const string&);
+    static double deduction(int);
 
 };
 

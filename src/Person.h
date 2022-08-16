@@ -48,10 +48,10 @@ public:
 
     void setSalary(int salary);
 
-    friend ostream &operator<<(ostream &os, const Person &person);
-
-    virtual ~Person();
+        virtual ~Person();
 
     string toString();
+
+    friend ostream &operator<<(ostream &os, const Person &person);
 };
 #endif //LAB04_DATAFLOW_ALPHAK03_PERSON_H

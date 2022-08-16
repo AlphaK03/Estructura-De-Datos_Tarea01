@@ -2,6 +2,8 @@
 // Created by Key Cortés on 14/8/2022.
 //
 #include "Node.h"
+#include "sstream"
+#include "iomanip"
 
 #ifndef LAB04_DATAFLOW_ALPHAK03_LIST_H
 #define LAB04_DATAFLOW_ALPHAK03_LIST_H
@@ -28,7 +30,15 @@ public:
     string showFromStartToEnd();
     void sortList();
     void sortListLastSurname();
+    void sortListByName();
     int size();
+    float deductionAverage();
+    float netSalary();
+    float averageSalary();
+
+    string report();
+
+
 };
 
 

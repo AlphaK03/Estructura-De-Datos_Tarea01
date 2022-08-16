@@ -3,6 +3,7 @@
 //
 
 #include "List.h"
+#include "Utility.h"
 
 List::List() = default;
 
@@ -108,6 +109,75 @@ Node *List::getEndNode() const {
 
 void List::setEndNode(Node *endNode) {
     List::endNode = endNode;
+}
+
+void List::sortListByName() {
+
+}
+
+float List::deductionAverage() {
+    float average = 0.0;
+    Node* traverse = headNode;
+
+    while (traverse!=nullptr)
+    {
+        average += static_cast<float>((Utility::deduction(traverse->person->getSalary())));
+        traverse=traverse->rightNode;
+    }
+    return average/static_cast<float>(size());
+}
+
+float List::netSalary() {
+    float average = 0.0;
+    Node* traverse = headNode;
+
+    while (traverse!=nullptr)
+    {
+        average += static_cast<float>((traverse->person->getSalary() - Utility::deduction(traverse->person->getSalary())));
+        traverse=traverse->rightNode;
+    }
+    return average/static_cast<float>(size());
+}
+
+string List::report() {
+    stringstream  os;
+
+    Node* traverse = headNode;
+
+    while (traverse!=nullptr)
+    {
+        os << "| " << traverse->person->getId() << "\t| ";
+        os << traverse->person->getSurname() << " ";
+        os << traverse->person->getLastSurname() << "\t| ";
+        os << traverse->person->getName() << " |\t";
+        os << traverse->person->getSalary() << " |\t";
+        os << Utility::deduction(traverse->person->getSalary()) << " |\t";
+        os << fixed << setprecision(0) << (traverse->person->getSalary() - Utility::deduction(traverse->person->getSalary()));
+        if((traverse->person->getSalary() - Utility::deduction(traverse->person->getSalary())) <= netSalary()){
+            os << "  | * |\n";
+        } else{
+            os << "\n";
+        }
+        traverse=traverse->rightNode;
+    }
+    os << fixed << setprecision(2) << "\t\t\t\t\t| " << averageSalary() << "\t";
+    os << fixed << setprecision(2) << "\t| " << deductionAverage() << "\t";
+    os << fixed << setprecision(2) << "\t| " << netSalary() << "\t";
+   
+
+    return os.str();
+}
+
+float List::averageSalary() {
+    float average = 0.0;
+    Node* traverse = headNode;
+
+    while (traverse!=nullptr)
+    {
+        average += static_cast<float>((traverse->person->getSalary()));
+        traverse=traverse->rightNode;
+    }
+    return average/static_cast<float>(size());
 }
 
 

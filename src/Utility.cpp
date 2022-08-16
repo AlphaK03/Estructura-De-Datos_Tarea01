@@ -12,3 +12,16 @@ int Utility::strToInt(const string& str) {
     }
     return num;
 }
+
+double Utility::deduction(int salary) {
+    double totalDeduction;
+    if(salary > 950000){
+        totalDeduction = (salary * 0.09) + ((salary-950000) * 0.05);
+    } else{
+        totalDeduction = (salary * 0.09);
+    }
+
+    return totalDeduction;
+}
+
+
