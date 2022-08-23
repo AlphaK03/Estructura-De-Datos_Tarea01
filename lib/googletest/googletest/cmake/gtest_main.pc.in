@@ -1,7 +1,7 @@
 libdir=@CMAKE_INSTALL_FULL_LIBDIR@
 includedir=@CMAKE_INSTALL_FULL_INCLUDEDIR@
 
-Name: gtest_main
+name: gtest_main
 Description: GoogleTest (with main() function)
 Version: @PROJECT_VERSION@
 URL: https://github.com/google/googletest

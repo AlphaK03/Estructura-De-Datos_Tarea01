@@ -235,7 +235,7 @@ class GTEST_API_ UntypedFunctionMockerBase {
   // ON_CALL/EXPECT_CALL has been invoked on it.
   const void* mock_obj_;  // Protected by g_gmock_mutex.
 
-  // Name of the function being mocked.  Only valid after this mock
+  // name of the function being mocked.  Only valid after this mock
   // method has been called.
   const char* name_;  // Protected by g_gmock_mutex.
 

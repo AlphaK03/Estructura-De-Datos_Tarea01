@@ -362,7 +362,7 @@ const char* UntypedFunctionMockerBase::Name() const
     // function is called from two threads concurrently.
     MutexLock l(&g_gmock_mutex);
     Assert(name_ != nullptr, __FILE__, __LINE__,
-           "Name() must not be called before SetOwnerAndName() has "
+           "name() must not be called before SetOwnerAndName() has "
            "been called.");
     name = name_;
   }

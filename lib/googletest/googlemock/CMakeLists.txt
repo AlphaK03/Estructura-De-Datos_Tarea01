@@ -30,7 +30,7 @@ endif()
 #
 # Project-wide settings
 
-# Name of the project.
+# name of the project.
 #
 # CMake files in this project can refer to the root source directory
 # as ${gmock_SOURCE_DIR} and to the root binary directory as

@@ -190,7 +190,7 @@ improve the speed of loading the library (see
 to always add the above flags when using GoogleTest as a shared library.
 Otherwise a future release of GoogleTest may break your build script.
 
-### Avoiding Macro Name Clashes
+### Avoiding Macro name Clashes
 
 In C++, macros don't obey namespaces. Therefore two libraries that both define a
 macro of the same name will clash if you `#include` both definitions. In case a

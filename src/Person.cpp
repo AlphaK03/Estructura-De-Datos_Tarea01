@@ -11,7 +11,7 @@
 Person::Person() = default;
 
 Person::Person(string id, string name, string surname, string lastSurname,
-               string birthday, int salary) : id(std::move(id)), Name(std::move(name)), surname(std::move(surname)), lastSurname(std::move(lastSurname)),
+               string birthday, int salary) : id(std::move(id)), name(std::move(name)), surname(std::move(surname)), lastSurname(std::move(lastSurname)),
                                               birthday(std::move(birthday)), salary(salary) {}
 
 
@@ -24,11 +24,11 @@ void Person::setId(const string &id) {
 }
 
 const string &Person::getName() const {
-    return Name;
+    return name;
 }
 
 void Person::setName(const string &name) {
-    Name = name;
+    this->name = name;
 }
 
 const string &Person::getSurname() const {
@@ -70,7 +70,7 @@ string Person::toString() {
 }
 
 ostream &operator<<(ostream &os, const Person &person) {
-    os << "id: " << person.id << " Name: " << person.Name << " surname: " << person.surname << " lastSurname: "
+    os << "id: " << person.id << " name: " << person.name << " surname: " << person.surname << " lastSurname: "
        << person.lastSurname << " birthday: " << person.birthday << " salary: " << person.salary;
     return os;
 }

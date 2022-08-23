@@ -625,7 +625,7 @@ class GTEST_API_ TestInfo {
   // These fields are immutable properties of the test.
   const std::string test_suite_name_;  // test suite name
   const std::string name_;             // Test name
-  // Name of the parameter type, or NULL if this is not a typed or a
+  // name of the parameter type, or NULL if this is not a typed or a
   // type-parameterized test.
   const std::unique_ptr<const ::std::string> type_param_;
   // Text representation of the value parameter, or NULL if this is not a
@@ -828,9 +828,9 @@ class GTEST_API_ TestSuite {
   // Restores the test order to before the first shuffle.
   void UnshuffleTests();
 
-  // Name of the test suite.
+  // name of the test suite.
   std::string name_;
-  // Name of the parameter type, or NULL if this is not a typed or a
+  // name of the parameter type, or NULL if this is not a typed or a
   // type-parameterized test.
   const std::unique_ptr<const ::std::string> type_param_;
   // The vector of TestInfos in their original order.  It owns the

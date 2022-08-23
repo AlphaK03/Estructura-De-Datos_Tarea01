@@ -12,7 +12,7 @@ using namespace std;
 class Person {
 private:
     string id;
-    string Name;
+    string name;
     string surname;
     string lastSurname;
     string birthday;

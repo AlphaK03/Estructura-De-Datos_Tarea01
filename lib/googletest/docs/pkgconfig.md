@@ -103,7 +103,7 @@ If you look at the generated pkg-config file, it will look something like
 libdir=/usr/lib64
 includedir=/usr/include
 
-Name: gtest
+name: gtest
 Description: GoogleTest (without main() function)
 Version: 1.11.0
 URL: https://github.com/google/googletest

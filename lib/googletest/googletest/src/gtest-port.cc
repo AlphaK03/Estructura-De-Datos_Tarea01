@@ -1145,7 +1145,7 @@ class CapturedStream {
  private:
   const int fd_;  // A stream to capture.
   int uncaptured_fd_;
-  // Name of the temporary file holding the stderr output.
+  // name of the temporary file holding the stderr output.
   ::std::string filename_;
 
   CapturedStream(const CapturedStream&) = delete;

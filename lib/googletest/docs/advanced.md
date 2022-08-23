@@ -1605,7 +1605,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-## Getting the Current Test's Name
+## Getting the Current Test's name
 
 Sometimes a function may need to know the name of the currently running test.
 For example, you may be using the `SetUp()` method of your test fixture to set
