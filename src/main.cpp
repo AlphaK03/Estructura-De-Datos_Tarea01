@@ -4,11 +4,14 @@
 #include "iostream"
 #include "ITextProcess.h"
 #include "TxtFile.h"
-
+#include "Utility.h"
+#include "BinaryFile.h"
 using namespace std;
 int main(){
 
-    string filename = "C:/Users/ESCINF/CLionProjects/Estructura-De-Datos_Tarea01/files/salarios.txt";   /*  CAMBIAR RUTA DE ARCHIVO */
+
+
+    string filename = "D:/Estructura-De-Datos_Tarea01/files/salarios.txt";   /*  CAMBIAR RUTA DE ARCHIVO */
     List userList;
     auto *csvManager = new TxtFile();
 
@@ -22,7 +25,7 @@ int main(){
     cout << userList.report();
 
     // ESCRITURA DE ARCHIVO
-    csvManager->dataWritingProcess("C:/Users/ESCINF/CLionProjects/Estructura-De-Datos_Tarea01/files/reporteGenerado.txt", userList);
+    csvManager->dataWritingProcess("D:/Estructura-De-Datos_Tarea01/files/reporteGenerado.txt", userList);
 
     return 0;
 }

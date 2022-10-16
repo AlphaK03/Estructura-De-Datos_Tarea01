@@ -22,6 +22,5 @@ double Utility::deduction(int salary) {
     }
 
     return totalDeduction;
+
 }
-
-
